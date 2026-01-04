@@ -43,28 +43,50 @@
 ## Cấu trúc thư mục đồ án
 
 CRYPTO_ANALYSIS
+
 ├── data
+
 │   ├── cleaned_coin.csv
+
 │   └── raw_coin.csv
+
 │
+
 ├── src
+
 │   ├── analysis
+
 │   │   ├── __init__.py
+
 │   │   ├── forecast.py
+
 │   │   └── statistics.py
+
 │   │
+
 │   ├── processing
+
 │   │   ├── __init__.py
+
 │   │   ├── chart.py
+
 │   │   ├── cleaning.py
+
 │   │   ├── ingestion.py
+
 │   │   └── load_time.py
+
 │   │
+
 │   └── __init__.py
+
 │
 ├── .gitignore
+
 ├── README.md
+
 ├── app.py
+
 └── requirements.txt
 
 # 1.Giới thiệu
