@@ -4,7 +4,6 @@ import matplotlib.dates as mdates
 import matplotlib.ticker as ticker  # Thêm thư viện để định dạng số
 import numpy as np
 
-
 def returns_histogram(df):
     """Biểu đồ phân phối lợi nhuận rõ nét hơn"""
     fig, ax = plt.subplots(figsize=(12, 6))  # Tăng chiều rộng
