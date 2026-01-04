@@ -44,7 +44,7 @@
 
 CRYPTO_ANALYSIS/
 │
-├── data/                          # Chứa các tập tin dữ liệu
+├── data/                          # Chứa các tập tin dữ liệu                                                                                                                                                       
 │   ├── raw_coin.csv               # Dữ liệu crypto gốc (chưa xử lý)
 │   └── cleaned_coin.csv           # Dữ liệu sau khi đã làm sạch
 │
