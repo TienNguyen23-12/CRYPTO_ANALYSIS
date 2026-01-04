@@ -16,7 +16,7 @@ def moving_average_forecast(df, end_time, window=20, horizon=7):
 
     forecast_df = pd.DataFrame(
         {"Forecast": [last_ma] * horizon},
-        index=future_dates
+        index = future_dates
     )
 
     return forecast_df
