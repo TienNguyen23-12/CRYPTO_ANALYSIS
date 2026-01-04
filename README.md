@@ -71,10 +71,8 @@ pip install -r requirements.txt
 
 
 
-3.Hướng dẫn sử dung
+3.Hướng dẫn sử dụng
 
 Chạy chương trình bằng lệnh:
 
 streamlit run app.py
-
-Ngừng chương trình bằng ctrl + c
