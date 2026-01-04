@@ -77,3 +77,4 @@ Chạy chương trình bằng lệnh:
 
 streamlit run app.py
 
+Ngừng chương trình bằng ctrl + c
