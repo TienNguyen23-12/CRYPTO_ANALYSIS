@@ -1,23 +1,43 @@
 ĐỒ ÁN PYTHON
+
 Thành viên 1
+
 •	Họ và tên: Trương Tấn Phát
+
 •	MSSV: 24110298
+
 •	Vai trò: Tích hợp chương trình chính, xây dựng giao diện chạy ứng dụng (app.py), trực quan hóa dữ liệu (chart.py), quản lý thư viện phụ thuộc (requirements.txt), viết tài liệu hướng dẫn (README.md).
+
 Thành viên 2
+
 •	Họ và tên: Nguyễn Thanh Tiến
+
 •	MSSV: 24110352
+
 •	Vai trò: Phân tích thống kê dữ liệu và xây dựng mô hình dự báo xu hướng giá tiền điện tử (statistics.py, forecast.py).
+
 Thành viên 3
+
 •	Họ và tên: Trương Hoàng Long
+
 •	MSSV: 24110273
+
 •	Vai trò: Làm sạch dữ liệu (xử lý giá trị null, trùng lặp, dữ liệu bất thường) và xuất dữ liệu sau xử lý ra file cleaned_coin.csv (cleaning.py).
+
 Thành viên 4
+
 •	Họ và tên: Phạm Minh Luân
+
 •	MSSV: 24110277
+
 •	Vai trò: Chuẩn hóa dữ liệu thời gian (parse datetime, sắp xếp, định dạng thời gian) phục vụ cho phân tích và trực quan (load_time.py).
+
 Thành viên 5
+
 •	Họ và tên: Đặng Duy Quang
+
 •	MSSV: 24110307
+
 •	Vai trò: Đọc dữ liệu đầu vào từ file raw_coin.csv, kiểm tra schema, phát hiện lỗi cột và chuẩn hóa cấu trúc dữ liệu ban đầu (ingestion.py).
 
 # CRYPTO ANALYSIS
