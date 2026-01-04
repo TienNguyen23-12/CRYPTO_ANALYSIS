@@ -42,53 +42,31 @@
 
 ## Cấu trúc thư mục đồ án
 
-CRYPTO_ANALYSIS
-
-├── data
-
-│   ├── cleaned_coin.csv
-
-│   └── raw_coin.csv
-
+CRYPTO_ANALYSIS/
 │
-
-├── src
-
-│   ├── analysis
-
-│   │   ├── __init__.py
-
-│   │   ├── forecast.py
-
-│   │   └── statistics.py
-
-│   │
-
-│   ├── processing
-
-│   │   ├── __init__.py
-
-│   │   ├── chart.py
-
-│   │   ├── cleaning.py
-
-│   │   ├── ingestion.py
-
-│   │   └── load_time.py
-
-│   │
-
-│   └── __init__.py
-
+├── data/                          # Chứa các tập tin dữ liệu
+│   ├── raw_coin.csv               # Dữ liệu crypto gốc (chưa xử lý)
+│   └── cleaned_coin.csv           # Dữ liệu sau khi đã làm sạch
 │
-├── .gitignore
-
-├── README.md
-
-├── app.py
-
-└── requirements.txt
-
+├── src/                           # Thư mục gốc mã nguồn (Package chính)
+│   ├── __init__.py                # Biến thư mục src thành một package
+│   │
+│   ├── processing/                # Module xử lý dữ liệu
+│   │   ├── __init__.py
+│   │   ├── ingestion.py           # Thu thập / đọc dữ liệu đầu vào
+│   │   ├── load_time.py            # Xử lý & chuẩn hóa dữ liệu thời gian
+│   │   ├── cleaning.py             # Làm sạch dữ liệu (null, trùng, lỗi)
+│   │   └── chart.py                # Hỗ trợ xử lý dữ liệu cho biểu đồ
+│   │
+│   ├── analysis/                  # Module phân tích dữ liệu
+│   │   ├── __init__.py
+│   │   ├── statistics.py           # Tính toán thống kê (mean, max, min, volatility…)
+│   │   └── forecast.py             # Dự báo xu hướng giá (forecast)
+│   │
+│   └── app.py                     # File chạy chính (giao diện / pipeline)
+│
+├── requirements.txt               # Danh sách thư viện (pandas, numpy, matplotlib…)
+└── README.md                      # Mô tả dự án
 # 1.Giới thiệu
 
 CRYPTO ANALYSIS là dự án Python dùng để phân tích và dự báo giá tiền điện tử (Crypto) dựa trên dữ liệu lịch sử.  
