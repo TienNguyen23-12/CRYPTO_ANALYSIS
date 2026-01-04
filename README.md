@@ -96,17 +96,24 @@ Cách 2: Cài đặt thủ công từng thư viện
 Phải cài đặt các thư viện cần thiết để có thể chạy đồ án, mở Terminal tải từng thư viện như sau:
 
 pip install pandas
+
 pip install numpy
+
 pip install matplotlib
+
 pip install streamlit
+
 pip install yfinance 
 
 # 3. Hướng dẫn sử dụng
 Sau khi hoàn tất việc cài đặt python và thư viện cần thiết. Mở Terminal trong VS Code, dẫn đường đến thư mục chứa phần code theo lệnh (nếu đường dẫn trong Terminal chưa đúng):
+
 cd CRYPTO_ANALYSIS
+
 đường dẫn đúng sẽ có dạng .../CRYPTO_ANALYSIS>
 
 Sau đó thực hiện lệnh:
+
 streamlit run app.py
 
 Giao diện sẽ được hiện ra, sau đó chỉ cần thao tác trên giao diện. Để dừng chương trình, về lại VS Code -> Nhấn Ctrl + C.
