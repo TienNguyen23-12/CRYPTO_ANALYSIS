@@ -8,7 +8,7 @@
 
 ## Thành viên 2
 
-•	Họ và tên: Nguyễn Thanh Tiến
+•	Họ và tên: Nguyễn Thành Tiến
 
 •	MSSV: 24110352
 
